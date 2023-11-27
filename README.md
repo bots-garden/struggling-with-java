@@ -117,7 +117,15 @@ public class App
 
 #### Build and run
 
+> this does not work
 ```bash
 mvn package
 java -jar target/hello-1.0-SNAPSHOT.jar 
 ```
+
+> this works
+```bash
+mvn compile exec:java -Dexec.mainClass="garden.bots.app.App"
+```
+
+
