@@ -1,0 +1,15 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Cobalt2",
+    "terminal.integrated.fontSize": 16,
+    "editor.fontSize": 18,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": true,
+    "rust-analyzer.linkedProjects": [
+      "./01-hello-rust/Cargo.toml"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive",
+  }
