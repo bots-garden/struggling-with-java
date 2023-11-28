@@ -102,7 +102,7 @@ EOF
 # Downloading SDKMAN!
 RUN curl -s "https://get.sdkman.io" | bash
 
-# Installing Java and Maven, removing some unnecessary SDKMAN files
+# Installing Java and Maven
 RUN bash -c "source $HOME/.sdkman/bin/sdkman-init.sh && \
     yes | sdk install java 11.0.21-amzn && \
     yes | sdk install maven"

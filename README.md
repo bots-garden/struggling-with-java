@@ -117,7 +117,7 @@ public class App
 
 #### Build and run
 
-> this does not work
+> this works
 ```bash
 mvn package
 java -jar target/hello-1.0-SNAPSHOT.jar 
